@@ -4,6 +4,7 @@ import Payments from "../assets/img/send.png";
 import Invest from "../assets/img/invest.png";
 import Piggy from "../assets/img/piggy.png";
 import { BsApple } from "react-icons/bs";
+import {SiGoogleplay} from "react-icons/si"
 export const Home = () =>{
     return (
         <>
@@ -24,8 +25,8 @@ export const Home = () =>{
                     <div className="w-full">
                         <button className="button rounded-xl p-3 px-4 w-fit b-blue text-lg text-white border-blue-700 border-1 ">Sign up for free</button>
                         <div className="flex flex-col my-6 sm:flex-row">
-                            <button className="px-4 flex items-center p-3 mr-2 w-48 border-1 rounded-xl border-gray-600">Get on Android</button>
-                            <button className="px-4 flex items-center p-3 mx-2 w-48 border-1 rounded-xl border-gray-600"><BsApple></BsApple> <span className="ml-2">Get on iPhone</span></button>
+                            <button className="px-4 flex items-center justify-center p-3 mr-2 w-48 border-1 rounded-xl border-gray-600"> <SiGoogleplay></SiGoogleplay> <span className="ml-2">Get on Android</span></button>
+                            <button className="px-4 flex items-center justify-center p-3 mx-2 w-48 border-1 rounded-xl border-gray-600"><BsApple></BsApple> <span className="ml-2">Get on iPhone</span></button>
                         </div>
                     </div>
                 </div>
