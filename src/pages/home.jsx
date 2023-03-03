@@ -31,6 +31,11 @@ export const Home = () =>{
                     </div>
                 </div>
                 <div className="w-1/2">
+                    <div className="rounded-full w-10 absolute top-[23%] right-[51%] h-10 bg-dgraysc"></div>
+                    <div className="rounded-full w-7 absolute top-[30%] right-[5%] h-7 bg-dgraysc"></div>
+                    <div className="rounded-full w-3 absolute top-[35%] right-[7%] h-3 bg-blue-600"></div>
+                    <div className="rounded-full w-5 absolute top-[60%] right-[51%] h-5 bg-dgraysc"></div>
+                    <div className="rounded-full w-7 absolute top-[80%] right-[5%] h-7 bg-dgraysc"></div>
                     <div className="w-fit h-fit px-4 bg-dgraysc rounded-[4rem]">
                         <img className="w-auto" src={Woman} alt="" />
                         <div className="w-52 h-[5rem] flex items-center bg-white p-4 absolute drop-shadow-lg top-[65%] right-[43%] rounded-xl">
