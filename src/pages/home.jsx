@@ -46,14 +46,14 @@ export const Home = () =>{
                     </div>
                 </div>
                 <div className="w-full sm:w-1/2">
-                    <div className="rounded-full w-7 sm:w-10 absolute top-[82%] right-[88%] h-7 sm:h-10 bg-dgraysc"></div>
-                    <div className="rounded-full  w-5 sm:w-7 absolute top-[86%] right-[0.01%] h-5 sm:h-7 bg-dgraysc"></div>
-                    <div className="rounded-full w-2 sm:w-3 absolute top-[89%] right-[5%] h-2 sm:h-3 bg-blue-600"></div>
-                    <div className="rounded-full w-3 sm:w-5 absolute top-[112%] right-[0.01%] h-3 sm:h-5 bg-dgraysc"></div>
-                    <div className="rounded-full w-7 absolute top-[112%] right-[5%] h-7 bg-dgraysc"></div>
+                    <div className="rounded-full w-7 sm:w-10 absolute sm:top-[19%] top-[82%] sm:right-[51%] right-[88%] h-7 sm:h-10 bg-dgraysc"></div>
+                    <div className="rounded-full  w-5 sm:w-7 absolute sm:top-[24%] top-[86%] sm:right-[6%] right-[0.01%] h-5 sm:h-7 bg-dgraysc"></div>
+                    <div className="rounded-full w-2 sm:w-3 absolute sm:top-[28%] top-[89%] right-[8%] h-2 sm:h-3 bg-blue-600"></div>
+                    <div className="rounded-full w-3 sm:w-5 absolute sm:top-[52%] top-[112%] sm:right-[52%] right-[0.01%] h-3 sm:h-5 bg-dgraysc"></div>
+                    <div className="rounded-full sm:w-4 w-7 absolute sm:top-[68%] top-[112%] right-[6%] sm:h-4 h-7 bg-dgraysc"></div>
                     <div className="w-fit h-fit px-4 bg-dgraysc rounded-[4rem]">
                         <img className="w-auto" src={Woman} alt="" />
-                        <div className="w-52 h-[5rem] flex items-center bg-white p-4 absolute drop-shadow-lg top-[88%] right-[43%] rounded-xl">
+                        <div className="sm:w-52 w-44 h-[4rem] sm:h-[5rem] flex items-center bg-white p-4 absolute drop-shadow-lg sm:top-[59%] top-[110%] sm:right-[40%] right-[55%] rounded-xl">
                             <div className="flex items-center justify-center rounded-md bg-dgraysc w-2/6 h-full p-2">
                                 <img src={Payments} alt="" />
                             </div>
@@ -66,7 +66,7 @@ export const Home = () =>{
                                 </div>
                             </div>
                         </div>
-                        <div className="w-52 h-[5rem] flex items-center bg-white p-4 sm:absolute drop-shadow-lg top-[88%] right-[8%] rounded-xl">
+                        <div className="sm:w-52 w-40 h-[4rem]sm:h-[5rem] flex items-center bg-white p-4 absolute drop-shadow-lg sm:top-[42%] top-[100%] right-[4%] rounded-xl">
                             <div className="flex items-center justify-center rounded-md bg-dgraysc w-2/6 h-full p-2">
                                 <img src={Invest} alt="" />
                             </div>
@@ -79,7 +79,7 @@ export const Home = () =>{
                                 </div>
                             </div>
                         </div>
-                        <div className="w-52 h-[5rem] flex items-center bg-white p-4 sm:absolute drop-shadow-lg top-[40%] right-[3%] rounded-xl">
+                        <div className="sm:w-52 w-40 h-[4rem] sm:h-[5rem] flex items-center bg-white p-4 absolute drop-shadow-lg sm:top-[97%] top-[125%] sm:right-[3%] right-[16%] rounded-xl">
                             <div className="flex items-center justify-center rounded-md bg-dgraysc w-2/6 h-full p-2">
                                 <img src={Piggy} alt="" />
                             </div>
@@ -95,33 +95,33 @@ export const Home = () =>{
                     </div>
                 </div>
             </div>
-            <div className="w-full px-16 my-8 flex items-center justify-between h-40 bg-dgraysc">
-                <img src={Bloomberg} alt="" />
-                <img src={CNBC} alt="" />
-                <img src={Forbes} alt="" />
-                <img src={Stripe} alt="" />
-                <img src={Quartz} alt="" />
+            <div className="w-full overflow-scroll sm:overflow-auto px-16 my-8 flex items-center justify-between h-40 bg-dgraysc">
+                <img className="mx-4 sm:mx-1" src={Bloomberg} alt="" />
+                <img className="mx-4 sm:mx-1" src={CNBC} alt="" />
+                <img className="mx-4 sm:mx-1" src={Forbes} alt="" />
+                <img className="mx-4 sm:mx-1" src={Stripe} alt="" />
+                <img className="mx-4 sm:mx-1" src={Quartz} alt="" />
             </div>
             <div className="w-full py-16 my-16 text-here h-60 flex flex-col items-center justify-center">
-                <span className="block sm:text-[42px] tracking-wide font-semibold text-deepblue">
+                <span className="block text-[42px] text-center tracking-wide font-semibold text-deepblue">
                     More than <span className="inline text-blue font-semibold"> 10,000</span> active users.
                 </span>
                 <span className="block text-here text-[42px] font-semibold text-deepblue">
                     Trust Fintekk.
                 </span>
             </div>
-            <div className="text-here bg-dgraysc py-20 w-full flex flex-col my-8 px-16 items-center justify-center">
+            <div className="text-here bg-dgraysc py-10 sm:py-20 w-full flex flex-col my-8 px-4 sm:px-16 items-center justify-center">
                 <span className="block text-xl">
                     OUR SERVICES
                 </span>
-                <span className="block text-deepblue font-semibold tracking-wide sm:text-[40px]">
+                <span className="block text-deepblue font-semibold tracking-wide text-3xl sm:text-[40px]">
                     What we offer
                 </span>
-                <span className="block w-[50%] text-center tracking-wide text-dpgray font-light text-[20px]">
+                <span className="block w-full sm:w-[50%] text-center tracking-wide text-dpgray font-light text-lg sm:text-[20px]">
                     We help individuals become more flexible and responsible with their finances and handle  payments smooth and easy. 
                 </span>
-                <div className="w-full flex flex-row items-center gap-10">
-                    <div className="rounded-3xl bg-lgraysc p-4 py-8">
+                <div className="w-full flex flex-col sm:flex-row items-center gap-10">
+                    <div className="rounded-3xl w-auto mx-2 bg-lgraysc p-4 py-8">
                         <h2 className="text-deepblue font-medium text-3xl my-4">
                             Easy Payment
                         </h2>
@@ -165,11 +165,11 @@ export const Home = () =>{
                     </div>
                 </div>
             </div>
-            <div className="flex w-full items-center px-16 gap-0 py-16 mt-8 text-here flex-row">
+            <div className="flex flex-col w-full items-center px-4 sm:px-16 gap-0 py-16 mt-8 text-here sm:flex-row">
                     <div className="w-1/2 ml-10">
                         <img className="w-80" src={Phone} alt="" />
                     </div>
-                    <div className="w-1/2 mr-10">
+                    <div className="w-full p-2 text-center sm:w-1/2 sm:mr-10">
                         <h2 className="text-deepblue font-medium tracking-wide w-full text-[42px]">
                             Start the journey to reach your financial goals today.
                         </h2>
@@ -214,10 +214,11 @@ export const Home = () =>{
                                 </div>
                             </div>
                         </div>
+                        <button className="button rounded-xl p-2 mx-3 w-fit b-blue text-white border-blue-700 border-1 ">Try Fintekk now</button>
                     </div>
             </div>
-            <div className="w-full my-16 flex flex-row bg-blue-600">
-                <div className="flex flex-col justify-center pl-16 w-1/2 bg-blue-600">
+            <div className="w-full my-16 flex flex-col sm:flex-row bg-blue-600">
+                <div className="flex flex-col justify-center w-full py-4 sm:py-0 px-2 sm:pl-16 sm:w-1/2 bg-blue-600">
                     <div className="w-full text-left">
                         <h2 className="text-white text-[40px] text-here">
                             FAQs
@@ -245,18 +246,18 @@ export const Home = () =>{
                             
                     </div>
                 </div>
-                <div className="w-auto ml-4">
+                <div className="w-auto mt-4 sm:mt-0 sm:ml-4">
                     <img className="w-full object-cover" src={Illustration} alt="" />
                 </div>
             </div>
-            <div className="flex flex-row my-28 px-16 py-16 items-center text-here bg-lgraysc ">
+            <div className="flex flex-col sm:flex-row my-28 px-4 lg:px-16 py-16 items-center text-here bg-lgraysc ">
                 <div className="w-fit mx-2">
                     <h3 className="text-gray-600 font-light text-3xl">Testimonials</h3>
                     <p className="text-[40px] text-deepblue font-medium">
                         What Our Customers Say About Us
                     </p>
                 </div>
-                <div className=" rounded-3xl h-40 bg-white p-4">
+                <div className=" rounded-3xl h-fit sm:h-40 bg-white p-4">
                     <p className="text-gray-600 text-xl">
                         Dealt with enquiry and subsequent order efficiently and quickly. So pleased with price and service I ordered a second one.
                     </p>
@@ -274,34 +275,34 @@ export const Home = () =>{
                         </IconContext.Provider>
                     </span>
                 </div>
-                <div className="px-4 flex flex-col justify-center items-center">
+                <div className="px-4 flex my-3 flex-row sm:flex-col justify-center items-center">
                     <IconContext.Provider value={{color:"blue"}}>
                         <AiOutlineArrowUp/>
-                        <span className="flex flex-col items-center">
-                            <span className="no my-2 inline-block text-center text-white w-6 h-6 rounded-full bg-deepblue">1</span>
-                            <span className="my-2 text-deepblue no">2</span>
-                            <span className="my-2 text-deepblue no">3</span>
+                        <span className="flex flex-row sm:flex-col items-center">
+                            <span className="no my-2 mx-2 inline-block text-center text-white w-6 h-6 rounded-full bg-deepblue">1</span>
+                            <span className="my-2 mx-2 text-deepblue no">2</span>
+                            <span className="my-2 mx-2 text-deepblue no">3</span>
                         </span>
                         <AiOutlineArrowDown/>
                     </IconContext.Provider>
                 </div>
             </div>
-            <div className="w-auto h-fit text-here flex flex-col items-center mx-32 my-20 rounded-3xl bg-blue py-10">
-                <h1 className="text-[40px] text-center font-semibold tracking-wide w-[30%] text-white">Start growing your wealth today</h1>
-                <div className="w-full flex flex-row justify-center items-center">
+            <div className="w-auto h-fit text-here flex flex-col items-center mx-4 sm:mx-32 my-20 rounded-3xl bg-blue py-2 sm:py-10">
+                <h1 className="text-[40px] text-center font-semibold tracking-wide w-[90%] sm:w-[30%] text-white">Start growing your wealth today</h1>
+                <div className="w-full flex flex-col md:flex-row sm:justify-center items-center">
                     <input className="bg-transparent text-white placeholder-inherit my-3 p-2 py-3 px-4 border-1 rounded-3xl w-[60%]" type="text" placeholder="Enter your email address" />
-                    <button className="text-gray-600 p-2 py-[0.6rem] px-4 rounded-3xl -ml-[8%]  bg-white">Sign Up</button>
+                    <button className="text-gray-600 p-2 py-[0.6rem] px-4 rounded-3xl lg:-ml-[8%]  bg-white">Sign Up</button>
                 </div>
             </div>
-            <div className="w-full h-fit bg-dgraysc flex-col px-20 my-10 py-20">
-                <div className="w-full flex flex-row justify-between">
+            <div className="w-full h-fit bg-dgraysc sm:flex-col px-20 my-10 py-20">
+                <div className="w-full flex flex-col sm:flex-row justify-between">
                     <div className="w-auto mx-2 text-here">
                         <h1 className="text-[40px] text-blue font-semibold">Fintekk</h1>
                         <p className="text-xl mt-4 w-[1/6] text-gray-400">
                              Fintekk is the bank that does it all. Manage everything  <br></br> directly and easy with fintekk.
                         </p>
                     </div>
-                    <div className="w-auto mx-4 text-here">
+                    <div className="w-auto my-4 sm:my-0 sm:mx-4 text-here">
                         <span className="text-xl block text-deepblue font-medium">Company</span>
                         <span className="text-xl my-2 block text-blue">
                             Careers
@@ -316,7 +317,7 @@ export const Home = () =>{
                             Terms
                         </span>
                     </div>
-                    <div className="w-auto mx-4 text-here">
+                    <div className="w-auto my-4 sm:my-0 sm:mx-4 text-here">
                         <span className="text-xl block text-deepblue font-medium">Services</span>
                         <span className="text-xl my-2 block text-blue">
                             Payments
@@ -328,7 +329,7 @@ export const Home = () =>{
                             Savings Plans
                         </span>
                     </div>
-                    <div className="w-auto mx-4 text-here">
+                    <div className="w-auto my-4 sm:my-0  sm:mx-4 text-here">
                         <span className="text-xl block text-deepblue font-medium">Resources</span>
                         <span className="text-xl my-2 block text-blue">
                             Media
@@ -343,15 +344,15 @@ export const Home = () =>{
                             Security
                         </span>
                     </div>
-                    <div className="w-auto mx-4 text-here">
+                    <div className="w-auto my-4 sm:my-0 sm:mx-4 text-here">
                         <span className="text-xl block text-deepblue font-medium">Resources</span>
                         <span className="text-xl my-2 block text-blue">
                             www.fintekk.com
                         </span>
                     </div>
                 </div>
-                <div className="w-full flex justify-between text-here py-2">
-                    <span className="block text-deepblue font-semibold text-lg">Copyright 2022 Fintekk. All Rights Reserved</span>
+                <div className="w-full flex flex-col sm:flex-row justify-between text-here py-2">
+                    <span className="block my-4 sm:my-0 text-deepblue font-semibold text-lg">Copyright 2022 Fintekk. All Rights Reserved</span>
                     <span className="text-lg font-semibold text-deepblue block">
                         Terms and Conditions. Privacy Policy
                     </span>
