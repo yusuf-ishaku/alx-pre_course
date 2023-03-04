@@ -1,9 +1,13 @@
+import { GiHamburgerMenu } from "react-icons/gi"
 export const Navbar = () =>{
     return (
         <>
-        <div className="w-full text-here px-8 py-10 flex  flex-row items-center justify-around h-10 border-gray-300 border-b-1">
+        <div className="w-full text-here sm:px-8 sm:py-10 flex px-4  flex-row items-center justify-between sm:justify-around h-10 border-gray-300 border-b-1">
           <span className="block text-blue text-md sm:text-2xl font-semibold">
             Fintekk
+          </span>
+          <span className=" block sm:hidden">
+            <GiHamburgerMenu></GiHamburgerMenu>
           </span>
           <div className="w-auto hidden sm:flex flex-row items-center">
             <span className="block text-lg font-nor mx-7 font-tdark ">Home</span>

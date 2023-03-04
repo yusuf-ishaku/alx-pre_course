@@ -32,6 +32,7 @@
   .text-deepblue{
     color: #172E80;
   }
+  
   .text-lgraysc{
     color: #F4F6FF;
   }
@@ -44,6 +45,9 @@
   .bg-blue{
     background-color: #2E5CFF;
   }
+  .bg-deepblue{
+    background-color: #172E80;
+  }
   .bg-lgraysc{
     background-color: #F4F6FF;
   }
@@ -52,5 +56,8 @@
   }
   .bg-dpgray{
     background-color: #777777;
+  }
+  .border-l-1{
+    border-left-width: 1px;
   }
 }
