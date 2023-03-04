@@ -1,8 +1,8 @@
 import { Navbar } from "../components/navbar.jsx";
 import  Woman  from "../assets/img/Woman-image.png";
-import Payments from "../assets/img/Send.png";
-import Invest from "../assets/img/Invest.png";
-import Piggy from "../assets/img/Piggy.png";
+import Payments from "../assets/img/send.png";
+import Invest from "../assets/img/invest.png";
+import Piggy from "../assets/img/piggy.png";
 import { BsApple } from "react-icons/bs";
 import {SiGoogleplay} from "react-icons/si";
 import Bloomberg from "../assets/img/Bloomberg-logo.png";
