@@ -37,8 +37,8 @@ export const Home = () =>{
                             Fintekk is the bank that does it all. Manage everything directly and easy with fintekk.
                         </p>
                     </div>
-                    <div className="w-full flex flex-col items-center sm:flex-col justify-center">
-                        <button className="button rounded-xl p-3 px-4 w-fit b-blue text-lg text-white border-blue-700 border-1 ">Sign up for free</button>
+                    <div className="w-full flex flex-col sm:items-start items-center sm:flex-col sm:justify-start justify-center">
+                        <button className="button rounded-xl p-3 px-4 sm:mx-4 mx-0 w-fit b-blue text-lg text-white border-blue-700 border-1 ">Sign up for free</button>
                         <div className="flex flex-col my-6 w-full sm:flex-row">
                             <button className="px-4 flex items-center justify-center p-3 my-4 mx-4 sm:mr-2 w-auto sm:w-48 border-1 rounded-xl border-gray-600"> <SiGoogleplay></SiGoogleplay> <span className="ml-2">Get on Android</span></button>
                             <button className="px-4 flex items-center justify-center p-3 my-4 mx-4 sm:mx-2 w-auto sm:w-48 border-1 rounded-xl border-gray-600"><BsApple></BsApple> <span className="ml-2">Get on iPhone</span></button>
