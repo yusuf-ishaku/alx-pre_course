@@ -10,7 +10,7 @@ import CNBC from "../assets/img/CNBC logo.png";
 import Forbes from "../assets/img/Forbes logo.png";
 import Stripe from "../assets/img/stripe logo.png";
 import Quartz from "../assets/img/Quartz logo.png";
-import Investment from "../assets/img/investment.png";
+import Investment from "../assets/img/Investment.png";
 import Savings from "../assets/img/savings.png";
 import Bro  from "../assets/img/bro.png";
 import Phone from "../assets/img/phone.png";
