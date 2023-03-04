@@ -28,12 +28,12 @@ export const Home = () =>{
             <div className="w-full text-here flex flex-col sm:flex-row sm:items-center px-4 sm:px-16 py-20">
                 <div className="flex flex-col justify-center w-full sm:w-1/2">
                     <div className="w-full sm:w-4/5">
-                        <p className="w-full text-deepblue text-center sm:leading-x font-medium text-3xl sm:text-[64px]">
+                        <p className="w-full text-deepblue text-center sm:text-left sm:leading-x font-medium text-3xl sm:text-[64px]">
                             Pay, Invest, Save your Cash with a single bank
                         </p>
                     </div>
                     <div className="w-full my-4">
-                        <p className="font-tdark text-center font-light sm:w-4/5 sm:leading-10 text-xl sm:text-2xl">
+                        <p className="font-tdark text-center sm:text-left font-light sm:w-4/5 sm:leading-10 text-xl sm:text-2xl">
                             Fintekk is the bank that does it all. Manage everything directly and easy with fintekk.
                         </p>
                     </div>
