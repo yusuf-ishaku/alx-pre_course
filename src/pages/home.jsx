@@ -214,7 +214,7 @@ export const Home = () =>{
                                 </div>
                             </div>
                         </div>
-                        <button className="button rounded-xl p-2 mx-3 w-fit b-blue text-white border-blue-700 border-1 ">Try Fintekk now</button>
+                        <button className="button sm:hidden rounded-xl p-2 mx-3 w-fit b-blue text-white border-blue-700 border-1 ">Try Fintekk now</button>
                     </div>
             </div>
             <div className="w-full my-16 flex flex-col sm:flex-row bg-blue-600">
