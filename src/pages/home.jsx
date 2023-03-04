@@ -1,5 +1,5 @@
 import { Navbar } from "../components/navbar.jsx";
-import  Woman  from "../assets/img/Woman image.png";
+import  Woman  from "../assets/img/Woman-image.png";
 import Payments from "../assets/img/Send.png";
 import Invest from "../assets/img/Invest.png";
 import Piggy from "../assets/img/Piggy.png";
