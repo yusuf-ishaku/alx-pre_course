@@ -5,7 +5,7 @@ import Invest from "../assets/img/invest.png";
 import Piggy from "../assets/img/piggy.png";
 import { BsApple } from "react-icons/bs";
 import {SiGoogleplay} from "react-icons/si";
-import Bloomberg from "../assets/img/Bloomberg-logo.png";
+import Bloomberg from "../assets/img/bloomberg-logo.png";
 import CNBC from "../assets/img/Cnbc-logo.png";
 import Forbes from "../assets/img/Forbes-logo.png";
 import Stripe from "../assets/img/Stripe-logo.png";
