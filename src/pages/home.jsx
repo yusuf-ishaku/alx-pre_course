@@ -4,7 +4,12 @@ import Payments from "../assets/img/send.png";
 import Invest from "../assets/img/invest.png";
 import Piggy from "../assets/img/piggy.png";
 import { BsApple } from "react-icons/bs";
-import {SiGoogleplay} from "react-icons/si"
+import {SiGoogleplay} from "react-icons/si";
+import Bloomberg from "../assets/img/bloomberg logo.png";
+import CNBC from "../assets/img/CNBC logo.png";
+import Forbes from "../assets/img/Forbes logo.png";
+import Stripe from "../assets/img/stripe logo.png";
+import Quartz from "../assets/img/Quartz logo.png";
 export const Home = () =>{
     return (
         <>
@@ -79,6 +84,32 @@ export const Home = () =>{
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="w-full px-16 my-8 flex items-center justify-between h-40 bg-dgraysc">
+                <img src={Bloomberg} alt="" />
+                <img src={CNBC} alt="" />
+                <img src={Forbes} alt="" />
+                <img src={Stripe} alt="" />
+                <img src={Quartz} alt="" />
+            </div>
+            <div className="w-full py-16 my-16 text-here h-60 flex flex-col items-center justify-center">
+                <span className="block sm:text-[42px] tracking-wide font-semibold text-deepblue">
+                    More than <span className="inline text-blue font-semibold"> 10,000</span> active users.
+                </span>
+                <span className="block text-here text-[42px] font-semibold text-deepblue">
+                    Trust Fintekk.
+                </span>
+            </div>
+            <div className="text-here w-full flex flex-col my-8 px-16 items-center justify-center">
+                <span className="block text-xl">
+                    OUR SERVICES
+                </span>
+                <span className="block text-deepblue font-semibold tracking-wide sm:text-[40px]">
+                    What we offer
+                </span>
+                <span className="block font-extralight text-xl">
+                    We help individuals become more flexible and responsible with their finances and handle  payments smooth and easy. 
+                </span>
             </div>
         </div>
         </>
