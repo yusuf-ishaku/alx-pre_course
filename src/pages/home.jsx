@@ -12,7 +12,7 @@ import Stripe from "../assets/img/stripe-logo.png";
 import Quartz from "../assets/img/quartz-logo.png";
 import Investment from "../assets/img/Investment.png";
 import Savings from "../assets/img/Savings.png";
-import Bro  from "../assets/img/Bro.png";
+import Bro  from "../assets/img/bro.png";
 import Phone from "../assets/img/Phone.png";
 import Illustration from "../assets/img/Illustration.png";
 
