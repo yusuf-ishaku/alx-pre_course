@@ -10,6 +10,10 @@ import CNBC from "../assets/img/CNBC logo.png";
 import Forbes from "../assets/img/Forbes logo.png";
 import Stripe from "../assets/img/stripe logo.png";
 import Quartz from "../assets/img/Quartz logo.png";
+import Investment from "../assets/img/investment.png";
+import Savings from "../assets/img/savings.png";
+import Bro  from "../assets/img/bro.png";
+import Phone from "../assets/img/phone.png"
 export const Home = () =>{
     return (
         <>
@@ -100,16 +104,113 @@ export const Home = () =>{
                     Trust Fintekk.
                 </span>
             </div>
-            <div className="text-here w-full flex flex-col my-8 px-16 items-center justify-center">
+            <div className="text-here bg-dgraysc py-20 w-full flex flex-col my-8 px-16 items-center justify-center">
                 <span className="block text-xl">
                     OUR SERVICES
                 </span>
                 <span className="block text-deepblue font-semibold tracking-wide sm:text-[40px]">
                     What we offer
                 </span>
-                <span className="block font-extralight text-xl">
+                <span className="block w-[50%] text-center tracking-wide text-dpgray font-light text-[20px]">
                     We help individuals become more flexible and responsible with their finances and handle  payments smooth and easy. 
                 </span>
+                <div className="w-full flex flex-row items-center gap-10">
+                    <div className="rounded-3xl bg-lgraysc p-4 py-8">
+                        <h2 className="text-deepblue font-medium text-3xl my-4">
+                            Easy Payment
+                        </h2>
+                        <p className="text-gray-500 font-light text-lg w-5/6">
+                            Stress-free payment for all transactions that you do at any time.
+                        </p>
+                        <span className="text-blue font-medium">
+                            Read more
+                        </span>
+                        <div className="w-full py-10 flex items-center justify-center object-contain">
+                            <img src={Bro} alt="" />
+                        </div>
+                    </div>
+                    <div className="rounded-3xl p-4 py-8 bg-lgraysc">
+                    <h2 className="text-deepblue font-medium text-3xl my-4">
+                            Investments
+                        </h2>
+                        <p className="text-gray-500 font-light text-lg w-5/6">
+                            Grow your money by investing in pre-vetted investment opportunities.
+                        </p>
+                        <span className="text-blue font-medium">
+                            Read more
+                        </span>
+                        <div className="w-full py-10 flex items-center justify-center object-contain">
+                            <img src={Savings} alt="" />
+                        </div>
+                    </div>
+                    <div className="rounded-3xl p-4 py-8 bg-lgraysc">
+                    <h2 className="text-deepblue font-medium text-3xl my-4">
+                            Fixed Savings
+                        </h2>
+                        <p className="text-gray-500 font-light text-lg w-5/6">
+                            Build a dedicated savings faster on your terms automatically or manually.
+                        </p>
+                        <span className="text-blue font-medium">
+                            Read more
+                        </span>
+                        <div className="w-full py-10 flex items-center justify-center object-contain">
+                            <img src={Investment} alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="flex w-full items-center px-16 gap-0 py-16 mt-8 text-here flex-row">
+                    <div className="w-1/2 ml-10">
+                        <img className="w-80" src={Phone} alt="" />
+                    </div>
+                    <div className="w-1/2 mr-10">
+                        <h2 className="text-deepblue font-medium tracking-wide w-full text-[42px]">
+                            Start the journey to reach your financial goals today.
+                        </h2>
+                        <div className="flex flex-col my-10">
+                            <div className="w-full">
+                                <div className="w-full block">
+                                    <div className="flex">
+                                        <span className="inline text-blue font-semibold text-lg mr-8">01</span>
+                                        <span className="inline text-deepblue text-xl font-semibold">
+                                            Download the mobile app
+                                        </span>
+                                    </div>
+                                    <div className="block tracking-wide ml-2 mt-3 h-28 text-gray-400 text-xl pl-[2.5rem] border-l-2 border-blue-600">
+                                        Sign up for an account with your name, email  and phone number.
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="w-full">
+                            <div className="w-full block">
+                                    <div className="flex">
+                                        <span className="inline text-blue font-semibold text-lg mr-8 mb-2">02</span>
+                                        <span className="inline  text-deepblue text-xl font-semibold">
+                                           Create a free account
+                                        </span>
+                                    </div>
+                                    <div className="block ml-2 tracking-wide h-28 text-gray-400 text-xl pl-[2.5rem] border-l-2 border-blue-600">
+                                        Sign up for an account with your name, email  and phone number.
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="w-full">
+                            <div className="w-full block">
+                                    <div className="flex">
+                                        <span className="inline text-blue font-semibold text-lg mr-8 mb-2">03</span>
+                                        <span className="inline text-deepblue text-xl font-semibold">
+                                            Add a Payment Method
+                                        </span>
+                                    </div>
+                                    <div className="block ml-2 tracking-wide mt-2 h-28 text-gray-400 text-xl pl-[2.5rem]">
+                                        Using your debit card, bank account, QR code, perform your first transaction.
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    
             </div>
         </div>
         </>
