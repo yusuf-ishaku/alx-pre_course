@@ -13,8 +13,8 @@ import Quartz from "../assets/img/quartz-logo.png";
 import Investment from "../assets/img/Investment.png";
 import Savings from "../assets/img/Savings.png";
 import Bro  from "../assets/img/bro.png";
-import Phone from "../assets/img/Phone.png";
-import Illustration from "../assets/img/Illustration.png";
+import Phone from "../assets/img/phone.png";
+import Illustration from "../assets/img/illustration.png";
 
 import { AiFillStar } from "react-icons/ai";
 import { IconContext } from "react-icons";
